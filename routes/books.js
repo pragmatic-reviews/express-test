@@ -1,5 +1,7 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+
+
 
 // Time Middleware
 const time = require("../middlewares/time.js");
